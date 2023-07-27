@@ -763,15 +763,23 @@
         <img src="./images/logo.png" alt="">
         <span class="font-bold lg:text-3xl text-white text-2xl">Fruit Burst</span>
       </div>
-      <div class="flex flex-wrap gap-8 text-white lg:text-lg text-sm font-semibold content-center justify-center">
-        <a class="hover:cursor-pointer">Home</a> 
+      <div class="md:grid md:grid-cols-6 gap-6 hidden  text-white lg:text-lg  font-semibold items-center">
+       <a class="hover:cursor-pointer">Home</a> 
         <a class="hover:cursor-pointer">About us</a> 
         <a class="hover:cursor-pointer">Shop</a> 
-        <a class="hover:cursor-pointer">All Fruits</a> 
+        <a class="hover:cursor-pointer">All Fruits</a>
         <a class="hover:cursor-pointer">Support</a>
         <a class="hover:cursor-pointer">My Account</a>
       </div> 
-      <div>
+      <div class="md:hidden  text-white text-sm font-semibold items-center">
+      <div class="flex gap-6"> <a class="hover:cursor-pointer">Home</a> 
+        <a class="hover:cursor-pointer">About us</a> 
+        <a class="hover:cursor-pointer">Shop</a> 
+        <a class="hover:cursor-pointer">All Fruits</a></div>
+        <div class="flex gap-6 mt-5"><a class="hover:cursor-pointer">Support</a>
+        <a class="hover:cursor-pointer">My Account</a></div>
+      </div> 
+      
         <div class="grid grid-flow-col gap-8 ">
           
           <a><i class="fa-brands fa-twitter text-lg md:text-2xl hover:cursor-pointer" style="color: #ffffff;"></i></a> 
@@ -784,8 +792,6 @@
       </div> 
       
     </footer>
-    
-         
     
 
 
